@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(203, 85, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-container{
+    position: relative;
+    margin: 1rem;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-container .info{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    max-width: 80%;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+figure img{
+    max-width: 100%;
+    
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    font-size: 4vw;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.info .info__description{
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+#control button{
+    margin-top: 3vh;
+    border-radius: 1rem;
+    font-size: 1.5vw;
+    padding: 0.5rem;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#control button:hover{
+    border-radius: 1rem;
+    background-color: rgb(252, 84, 84);
+}
